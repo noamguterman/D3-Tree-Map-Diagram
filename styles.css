@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tile {
+  stroke: white;
+  stroke-width: 1px;
+}
+#legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  background-color: lightsteelblue;
+  opacity: 0;
+  border-radius: 5px;
+  pointer-events: none;
+}
+.tile-text {
+  font-size: 10px;
+  fill: black;
+  pointer-events: none;
+}
